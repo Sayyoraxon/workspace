@@ -2,11 +2,12 @@ import Head from "next/head";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Component1 from "@/components/homePageComponents/component1";
-import Component2 from "@/components/homePageComponents/component2";
+import Component from "@/components/homePageComponents/component";
 import Component3 from "@/components/homePageComponents/component3";
 import Component4 from "@/components/homePageComponents/component4";
 import Component5 from "@/components/homePageComponents/component5";
 import Component6 from "@/components/homePageComponents/component6";
+import Footer1 from "@/components/footer/footer1";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,11 +22,12 @@ export default function Home() {
       </Head>
       <div>
           <Component1/>
-          <Component2/>
+          <Component/>
           <Component3/>
           <Component4/>
           <Component5/>
           <Component6/>
+          <Footer1 urlImg = "./Subtrack7.png"/>
       </div>
     </>
   );

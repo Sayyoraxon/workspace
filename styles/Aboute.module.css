@@ -4,6 +4,11 @@
     z-index: 3;
 }
 
+.a_component1>img {
+    width: 100%;
+    border-radius: 24px;
+}
+
 .a_component1>h1 {
     position: absolute;
     left: 0;
@@ -42,5 +47,341 @@
     position: absolute;
     left: 0;
     top: -24px;
+    background-image: radial-gradient(farthest-corner at 85% 85%, transparent 72%, #fff 28%);
+}
+
+.a_component2 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.a_component2>h6 {
+    margin: 8px;
+    width: 220px;
+    color: #222;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.a_component2>p {
+    margin: 0;
+    width: 874px;
+    color: #222;
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.a_component3 {
+    height: auto;
+    padding: 64px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F4F1E8;
+    border-radius: 24px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.a_component3>div:first-child {
+    width: 287px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.a_component3>div:first-child>button {
+    margin-top: auto;
+    background-color: transparent;
+    border: none;
+    color: #807166;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.a_component3>div:first-child>h1 {
+    margin: 0;
+    color: #222;
+    font-family: "Raleway", sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+.cards2 {
+    height: auto;
+    width: 810px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cards2>div {
+    cursor: pointer;
+    color: #222;
+    flex-grow: 1;
+    padding: 24px;
+    width: 395px;
+    border-radius: 20px;
+    border: 1px solid #cacaca;
+}
+
+.cards2>div>h3 {
+    margin: 22px 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.cards2>div>svg {
+    font-size: 20px;
+}
+
+.cards2>div>p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.75;
+}
+
+.cards2>div:hover {
+    background-color: #807166;
+    border: none;
+    color: #fff;
+}
+
+.a_component4 {
+    margin-top: 100px;
+}
+
+.a_component4>h1 {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 48px;
+    color: #222;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+.a_component4>div {
+    display: flex;
+    gap: 10px;
+}
+
+.a_component4>div>div {
+    width: 305px;
+    height: 592px;
+}
+
+.a_component4>div>div>img {
+    width: 305px;
+    height: 500px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.a_component4>div>div>div {
+    margin-top: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.a_component4>div>div>div>p {
+    margin: 0;
+    color: #222;
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.a_component4>div>div>div>button {
+    padding: 5px 6px;
+    border-radius: 50%;
+    border: none;
+    background-color: #222;
+}
+
+.a_component4>div>div>div svg {
+    color: #fff;
+    font-size: 18px;
+}
+
+.a_component4>div>.middle {
+    position: relative;
+    width: 690px;
+    height: 592px;
+}
+
+.a_component4>div>.middle>img {
+    width: 690px;
+    height: 592px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.a_component4>div>.middle>h2 {
+    position: absolute;
+    margin: 0;
+    bottom: 45px;
+    border-radius: 0 20px 0 0;
+    padding: 8px 17px 0 0;
+    color: #222;
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    background-color: #fff;
+}
+
+.a_component4>div>.middle>p {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 254px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.a_component4>div>.middle>h2.last {
+    bottom: 0;
+    padding: 8px 22px 0 0;
+}
+
+
+.a_component4>div>.middle>h2::before {
+    content: "";
+    rotate: -90deg;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -20px;
+    bottom: 0px;
+    background-image: radial-gradient(farthest-corner at 90% 90%, transparent 72%, #fff 28%);
+}
+
+.a_component4>div>.middle>h2::after {
+    content: "";
+    rotate: -90deg;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: -20px;
     background-image: radial-gradient(farthest-corner at 85% 85%, transparent 70%, #fff 30%);
+}
+
+.about>p {
+    margin: 0;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    color: #222;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.a_component5 {
+    margin-top: 100px;
+}
+
+.a_component5>h1 {
+    margin: 0;
+    margin-bottom: 48px;
+    color: #222;
+    font-family: "Raleway", sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+.a_comp5 {
+    display: flex;
+    gap: 20px
+}
+
+.a_comp5>div:first-child {
+    width: 745px;
+    height: 614px;
+}
+
+.a_comp5>div:last-child {
+    width: 575px;
+    height: 614px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.a_comp5>div:last-child>div:first-child {
+    width: 575px;
+    height: 186px;
+}
+
+.a_comp5>div:last-child>div:last-child {
+    width: 575px;
+    height: 407px;
+    display: flex;
+    gap: 20px;
+}
+
+.a_comp5>div:last-child>div:last-child>div:first-child {
+    width: 235px;
+    height: 408px;
+}
+
+.a_comp5>div:last-child>div:last-child>div:last-child {
+    width: 320px;
+    height: 408px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.a_comp5>div:last-child>div:last-child>div:last-child>div {
+    width: 320px;
+    height: 194px;
+}
+
+.a_comp img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

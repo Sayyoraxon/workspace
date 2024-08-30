@@ -1,0 +1,220 @@
+.e_component1 {
+    position: relative;
+    margin-top: 14px;
+    z-index: 3;
+}
+
+.e_component1>img {
+    width: 100%;
+    border-radius: 24px;
+}
+
+.e_component1>h1 {
+    position: absolute;
+    left: 0;
+    bottom: 38px;
+    padding: 0 12px 0 0;
+    background-color: #fff;
+    color: #222;
+    font-family: "Raleway", sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 88px;
+    border-radius: 0 24px 0 0;
+}
+
+
+.e_component1>h1:last-child {
+    bottom: -50px
+}
+
+.e_component1>h1::before {
+    content: "";
+    rotate: -90deg;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: -24px;
+    bottom: 0px;
+    background-image: radial-gradient(farthest-corner at 90% 90%, transparent 72%, #fff 28%);
+}
+
+.e_component1>h1::after {
+    content: "";
+    rotate: -90deg;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 0;
+    top: -24px;
+    background-image: radial-gradient(farthest-corner at 85% 85%, transparent 72%, #fff 28%);
+}
+
+.compAbs {
+    position: absolute;
+    right: 32px;
+    bottom: 32px;
+    width: 320px;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.compAbs p {
+    margin: 0;
+    margin-bottom: 8px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.compAbs h5 {
+    margin: 0;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.compAbs button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.compAbs svg {
+    font-size: 32px;
+    color: #fff;
+}
+
+.e_component2 {
+    margin-top: 36px;
+}
+
+.card {
+    width: 100%;
+    padding: 64px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 38px;
+    border-bottom: 1px solid #cacaca;
+}
+
+
+.card>div:first-child {
+    width: 320px;
+    height: 208px;
+}
+
+.card>div:first-child>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.card_desc {
+    width: 624px;
+    height: 208px;
+}
+
+
+.card_desc>h2 {
+    margin: 0;
+    margin-bottom: 32px;
+    color: #222;
+    font-family: "Raleway", sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+.card_desc>p {
+    margin: 0;
+    color: #222;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.card>div:last-child {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 320px;
+    height: auto;
+    gap: 32px;
+}
+
+.card>div:last-child>div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card>div:last-child>div>div>h5 {
+    margin: 0;
+    margin-bottom: 4px;
+    color: #222;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.card>div:last-child>div>div>p {
+    margin: 0;
+    color: #222;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.card>div:last-child>div>button {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: none;
+    padding: 14px;
+    background-color: #f4f4f4;
+}
+
+.card>div:last-child>div>button>svg {
+    font-size: 24px;
+}
+
+.card>div:last-child>button {
+    width: 100%;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #222;
+    border: none;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.card>div:last-child:hover button{
+    background-color: #807166;
+}
+
+
+

@@ -1,0 +1,275 @@
+.p_component1 {
+    margin-top: 14px;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+.p_component1>img {
+    width: 100%;
+    border-radius: 24px;
+}
+
+.p_component1>div {
+    border-radius: 0 0 24px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-right: 40px;
+    display: flex;
+    align-items: flex-start;
+    background-color: #fff;
+}
+
+.p_component1>div::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: -24px;
+    top: 0px;
+    background-image: radial-gradient(farthest-corner at 90% 90%, transparent 71%, #fff 30%);
+}
+
+.p_component1>div>p {
+    margin: 0;
+    margin-right: 65px;
+    color: #222;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.p_component1>div>h2 {
+    margin: 0;
+    color: #222;
+    font-family: "Raleway", sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 88px;
+}
+
+.p_component1>h2 {
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 80px;
+    padding-right: 40px;
+    border-radius: 0 0 24px 0;
+    margin: 0;
+    color: #222;
+    font-family: "Raleway", sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 88px;
+}
+
+.p_component1>h2::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: -24px;
+    top: 8px;
+    background-image: radial-gradient(farthest-corner at 85% 85%, transparent 71%, #fff 30%);
+}
+
+.p_component1>h2::after {
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 0;
+    bottom: -24px;
+    background-image: radial-gradient(farthest-corner at 85% 85%, transparent 71%, #fff 30%);
+}
+
+.p_component1>p {
+    width: 357px;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 8px 0 0 12px;
+    border-radius: 24px 0 0 0;
+    margin: 0;
+    color: #222;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.p_component1>p::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    rotate: -180deg;
+    right: 0px;
+    top: -24px;
+    background-image: radial-gradient(farthest-corner at 85% 85%, transparent 71%, #fff 30%);
+}
+
+.p_component1>p::after {
+    rotate: -180deg;
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: -24px;
+    bottom: 4px;
+    background-image: radial-gradient(farthest-corner at 85% 85%, transparent 71%, #fff 30%);
+}
+
+.p_component2 {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 52px;
+}
+
+.p_component2>div:first-child {
+    flex-grow: 1;
+    width: 746px;
+    height: 388px;
+}
+
+.p_component2>div:first-child>h2 {
+    margin: 0;
+    margin-bottom: 22px;
+    padding-right: 230px;
+    color: #222;
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+}
+
+.p_component2>div:first-child>div {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.p_component2>div:first-child>div>svg {
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.p_component2>div:first-child>div>p {
+    margin: 0;
+    color: #222;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.p_component2>div:first-child>p {
+    margin-top: 48px;
+    color: #222;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.p_component2>div:last-child {
+    flex-grow: 1;
+    width: 524px;
+    height: 396px;
+    padding: 8px 32px 32px 32px;
+    border-radius: 20px;
+    background-color: rgb(250, 241, 226);
+}
+
+.p_component2>div:last-child>p {
+    margin: 0;
+    margin-top: 24px;
+    color: #222;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.p_component2>div:last-child>h2 {
+    margin: 0;
+    margin-top: 4px;
+    color: #222;
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.p_component2>div:last-child>div {
+    margin-top: 32px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p_component2>div:last-child>div>p {
+    width: 291px;
+    margin: 0;
+    color: #222;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.5;
+}
+
+.p_component2>div:last-child>div>button {
+    width: 150px;
+    height: 48px;
+    background-color: #fff;
+    border: none;
+    border-radius: 50px;
+    color: #222;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.p_component3 {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.p_component3>div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.p_component3>div>img {
+    flex-grow: 1;
+    width: 660px;
+    height: 470px;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+.p_component3>video {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 24px;
+}

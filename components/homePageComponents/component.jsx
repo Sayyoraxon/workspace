@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "@/styles/Home.module.css";
 
-const Component2 = () => {
+const Component = () => {
   return (
     <div className={styles.logos}>
         <img src="./Logo 1.svg" alt='logo'/>
@@ -14,4 +14,4 @@ const Component2 = () => {
   )
 }
 
-export default Component2
+export default Component

@@ -341,6 +341,7 @@
     border-radius: 20px;
     border: 1px solid #cacaca;
     cursor: pointer;
+    color: #222
 }
 
 .cards>div>img {
@@ -349,7 +350,6 @@
 
 .cards>div h3 {
     margin: 0;
-    color: #222;
     font-family: "Raleway", sans-serif;
     font-size: 32px;
     font-style: normal;
@@ -359,7 +359,6 @@
 
 .cards>div p {
     margin: 0;
-    color: #222;
     opacity: 0.75;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
@@ -372,23 +371,12 @@
     font-size: 20px;
 }
 
-.cards .brown {
+.cards>div:hover {
     border: none;
     background-color: #807166;
-}
-
-.cards .brown>h3 {
     color: #fff;
 }
 
-.cards .brown>p {
-    color: #fff;
-    opacity: 0.75;
-}
-
-.brown svg {
-    color: #fff;
-}
 
 .h_component4 {
     width: 100%;

@@ -13,3 +13,95 @@ body {
 .App {
   padding: 20px 50px;
 }
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.swiper-pagination-bullet {
+  background: #fff;
+}
+
+
+span.swiper-pagination-bullet {
+  font-size: 16px;
+  background: #fff;
+  text-decoration: underline;
+  opacity: 1;
+}
+
+span.swiper-pagination-bullet-active {
+  opacity: 0.4;
+}
+
+div.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 0px;
+  z-index: 8;
+  position: relative;
+  margin: 32px;
+  margin-top: 0;
+}
+
+
+div.swiper-button-prev,
+div.swiper-button-next {
+  display: inline-block;
+  top: auto;
+  height: 20px;
+  width: 40px;
+  position: relative;
+}
+
+div.swiper-button-prev {
+  bottom: -20px;
+  left: 2px;
+}
+
+div.swiper-button-next {
+  left: 100%;
+  bottom: -18px;
+  transform: translate(-220%);
+}
+
+div.swiper-button-next::after {
+  content: "NEXT";
+  color: #222;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  text-decoration: underline;
+}
+
+div.swiper-button-prev::after {
+  content: "PREV";
+  color: #222;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  text-decoration: underline;
+}
+

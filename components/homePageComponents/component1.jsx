@@ -4,6 +4,7 @@ import { HiOutlineArrowLongLeft, HiOutlineArrowLongRight } from "react-icons/hi2
 
 
 const Component1 = () => {
+
     return (
         <div className={styles.h_component1}>
             <video autoPlay loop muted>

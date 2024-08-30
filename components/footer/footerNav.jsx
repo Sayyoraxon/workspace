@@ -12,7 +12,7 @@ const FooterNav = () => {
         <Link href={"./about"}>
           About Us
         </Link>
-        <Link href={"#"}>
+        <Link href={"./careers"}>
           Careers
         </Link>
         <Link href={"#"}>
@@ -23,13 +23,13 @@ const FooterNav = () => {
         <p>
           Community
         </p>
-        <Link href={"#"}>
+        <Link href={"./event"}>
           Event
         </Link>
         <Link href={"#"}>
           Stories
         </Link>
-        <Link href={"#"}>
+        <Link href={"./partnership"}>
           Partnership
         </Link>
       </div>
