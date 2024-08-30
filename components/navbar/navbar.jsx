@@ -19,12 +19,12 @@ const Navbar = () => {
     return (
         <div className={styles.navbar}>
             <div>
-                <img src="./logo.svg" alt="logo" style={{cursor: "pointer"}}
+                <img src="./Logo.svg" alt="logo" style={{cursor: "pointer"}}
                     onClick={() => router.push('/')} />
                 <div className={styles.hr}>
                 </div>
                 <div>
-                    <img src="./logo1.svg" />
+                    <img src="./Logo1.svg" />
                 </div>
             </div>
 
